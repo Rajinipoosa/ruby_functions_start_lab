@@ -30,32 +30,39 @@ end
       return string_1 + string_2
   end
 
- def add_string_as_number(string_1,string_2)
-   return string_1.to_i+ string_2.to_i
+  def add_string_as_number(string_1,string_2)
+    return string_1.to_i+ string_2.to_i
    end
 
-   def number_to_full_month_name(number)
+    def number_to_full_month_name(number)
      case number
        when 1 
-        puts "January"
+        return "January"
       when 3
-        puts "March"
+        return "March"
       when 9 
-       puts "September"
+       return "September"
       end
-  end
+    end
      
-   def number_to_short_month_name(num) 
-       case num
+      def number_to_short_month_name(num) 
+         case num
          when 1
-           puts "Jan"
+           return "Jan"
          when 3
-           puts "Mar"
+           return "Mar"
         when 9
-         puts "Sep"
-        end
-
+          return "Sep"
       end
+
+    end
+
+      def  volume(vol)
+       return vol ** 3
+     end
+     def  volume_sphere(r)
+      return 4/3.0 * (Math::PI) * r**3
+     end
 
   
  
