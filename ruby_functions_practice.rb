@@ -45,17 +45,17 @@ end
       end
   end
      
-#     def number_to_short_month_name(num) 
-#       case num
-#         when 1
-#           puts "Jan"
-#         when 3
-#           puts "Mar"
-#        when 9
-#         puts "Sep"
-#        end
+   def number_to_short_month_name(num) 
+       case num
+         when 1
+           puts "Jan"
+         when 3
+           puts "Mar"
+        when 9
+         puts "Sep"
+        end
 
-#      end
+      end
 
   
  
