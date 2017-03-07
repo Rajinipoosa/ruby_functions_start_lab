@@ -82,14 +82,15 @@ def test_volume_of_cube()
 #    #Given the radius of a sphere calculate the volume
 def test_volume_of_sphere()
   volume_result = volume_sphere( 2 )
-  assert_equal( 33.42 , volume_result )
+  assert_equal( 33.51 , volume_result )
 
 end
 
-# #   #Given a value in farenheit, convert this into celsius.
-#   #def test_fahrenheit_to_celsius()
-
-#    #end
+# #   #Given a value in farenheit, convert this into celsius.T(°C) = (T(°F) - 32) × 5/9 
+  def test_fahrenheit_to_celsius()
+   celsius_result = to_celsius( 40 )
+    assert_equal(4.44 ,celsius_result)
+  end
 
 
 # end

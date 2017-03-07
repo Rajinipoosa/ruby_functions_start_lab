@@ -61,9 +61,12 @@ end
        return vol ** 3
      end
      def  volume_sphere(r)
-      return 4/3.0 * (Math::PI) * r**3
+      return (4/3.to_f * (Math::PI) * r**3).round(2)
      end
-
+     def to_celsius(fah°c)
+      return ((fah°c - 32) * 5/9.to_f).round(2)
+       
+     end
   
  
 
