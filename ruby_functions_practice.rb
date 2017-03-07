@@ -17,10 +17,10 @@ def multiply(num1 ,num2)
 
 end
 
-# def divide(num1 ,num2)
-#  return num1 / num2
+ def divide(num1 ,num2)
+  return num1 / num2
 
-# end
+ end
 
 # def length_of_string(str)
 #   return str.length
